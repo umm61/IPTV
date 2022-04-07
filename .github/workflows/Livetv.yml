@@ -27,7 +27,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=12800000
-        $(youtube-dl -g https://www.youtube.com/watch?v=RXMIr71bFR0)
+        $(youtube-dl -g https://www.youtube.com/watch?v=tAuXNZ5TSlA)
         EOL
     - name: Get zhiyum2.m3u8
       run: |
@@ -36,7 +36,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=12800000
-        $(youtube-dl -g https://www.youtube.com/watch?v=IwS3w3V7Ujw)
+        $(youtube-dl -g https://www.youtube.com/watch?v=CwRvM2TfYbs)
         EOL
     - name: Get zhiyum3.m3u8
       run: |
